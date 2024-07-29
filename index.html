@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="BR-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula CSS</title>
+
+    <style>
+        h2{
+            color:black;
+        }
+    </style>
+
+    <link rel="stylesheet" href= "estilo.css">
+
+</head>
+<body>
+
+<!-- style="color:bisque",para colocar cor em uma só coisa (aplicar dentro do h1)-->
+
+    <h1>Grandes Times Mineiros</h1>
+
+<div>
+    <!-- o id não deve repetir em mais de uma div, pois se tiver mais de 2 elementos com o id será dificil puxar esse elemento-->
+    <div id="teste" id="atl" >
+        <img class="imagem-time" src="img/download.jpg" alt="">
+        <h2 class="time-detalhe" >Atlético</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minima. Inventore, magnam voluptates. Ipsum nesciunt aperiam sapiente quis voluptatem, fugiat dicta a voluptates. Nisi quaerat nam labore sapiente quidem fugit?</p>
+    </div>
+
+        <!-- o class pode repetir em mais de uma div-->
+        <div  class="time" id="cru"> 
+            <img class="imagem-time" src="img/download.png" alt="">
+            <h2>Cruzeiro</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minima. Inventore, magnam voluptates. Ipsum nesciunt aperiam sapiente quis voluptatem, fugiat dicta a voluptates. Nisi quaerat nam labore sapiente quidem fugit?</p>
+        </div>
+
+            <div class="time" id="ame" > 
+                <img  class="imagem-time" src="img/download (1).png" alt="">
+                <h2>América</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, minima. Inventore, magnam voluptates. Ipsum nesciunt aperiam sapiente quis voluptatem, fugiat dicta a voluptates. Nisi quaerat nam labore sapiente quidem fugit?</p>
+            </div>
+</div>
+
+
+    
+</body>
+</html>

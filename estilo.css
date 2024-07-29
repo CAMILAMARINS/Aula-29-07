@@ -1,0 +1,68 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+
+/*aqui muda todo o texto*/
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    color: lightslategray;
+}
+
+/*aqui só muda a fonte dos subtitulos*/
+h2{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+#teste{
+    width: 400px;
+    border: solid lightgrey 1px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px;
+}
+
+.time{
+    width: 80%; 
+    border: solid lightgrey 1px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px;
+}
+
+p{
+    color:black;
+    font-weight: 30;
+}
+
+.imagem-time{
+    width:150px;
+    margin: 10px;
+}
+
+#atl{
+    color:black;
+    h2{
+        color:black;
+    }
+}
+
+#cru{
+    color:darkblue;
+    h2{
+        color:darkblue;
+    }
+}
+
+#ame{
+    color:darkgreen;
+    h2{
+        color:darkgreen;
+    }
+}
+
+ 
